@@ -1,0 +1,5 @@
+<h1>u petit test.</h1>
+<p><strong>ici nous tenton de cr&eacute;&eacute; une news.</strong></p>
+<p>avec des smiley <span style="text-decoration: underline;"><img src="js/tinymce/plugins/emoticons/img/smiley-cool.gif" alt="cool" /> <img src="js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" alt="money-mouth" /> <img src="js/tinymce/plugins/emoticons/img/smiley-kiss.gif" alt="kiss" /></span></p>
+<p>et ine image centr&eacute;e</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://ffgirl974blog.fr/v2/images/banniere.jpg" alt="fftest" width="441" height="169" /></p>

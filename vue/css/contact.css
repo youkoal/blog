@@ -1,0 +1,78 @@
+
+
+
+
+
+
+
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footerLink{
+    width:40px;
+    height:40px;
+    padding:5px;
+    display:inline-block;
+    margin:auto;
+}
+
+.footerLine{
+    padding-bottom: 15px;
+    width:261px;
+    margin:auto;
+    }
+
+.footerHr{
+    display:none;
+}
+
+
+@media (max-width: 400px) {
+  .footerLink{
+    width:30px;
+    height:30px;
+    padding:2px;
+    display:inline-block;
+    margin:auto;
+    }
+
+    .footerLine{
+    padding-bottom: 30px;
+    width:200px;
+    margin:auto;
+    }
+
+    .footerHr{
+        display:block;
+    }
+}
+
+
+#contact p{
+  padding:30px;
+  box-shadow: 3px 3px 10px #808080;
+}

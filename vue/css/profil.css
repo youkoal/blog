@@ -1,0 +1,146 @@
+
+
+
+
+
+
+
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footerLink{
+    width:40px;
+    height:40px;
+    padding:5px;
+    display:inline-block;
+    margin:auto;
+}
+
+.footerLine{
+    padding-bottom: 15px;
+    width:261px;
+    margin:auto;
+    }
+
+.footerHr{
+    display:none;
+}
+
+
+@media (max-width: 400px) {
+  .footerLink{
+    width:30px;
+    height:30px;
+    padding:2px;
+    display:inline-block;
+    margin:auto;
+    }
+
+    .footerLine{
+    padding-bottom: 30px;
+    width:200px;
+    margin:auto;
+    }
+
+    .footerHr{
+        display:block;
+    }
+}
+
+#contenus{
+  	display:inline-block;
+  }
+
+#contenus div{
+  	height: 519px;
+  	width:20%;
+  	z-index:1000;
+  	float:left;
+  }
+
+
+  #contenus p{
+  	padding:30px;
+  	box-shadow: 3px 3px 10px #808080;
+  	width:75%;
+  	float:left;
+  }
+
+@media (min-width: 1170px) {
+  #contenus p{
+  	margin-top: 100px;
+
+  }
+}
+
+
+
+@media (min-width: 970px) and (max-width: 1171px) {
+  #contenus p{
+  	margin-top: 100px;
+  }
+
+
+}
+
+@media (min-width: 750px) and (max-width: 971px) {
+  #contenus p{
+  	margin-top: 100px;
+  	margin-left:30px;
+  }
+
+
+
+}
+
+@media (min-width: 450px) and (max-width: 751px) {
+	#contenus p{
+  	margin-top: 10px;
+  }
+  #contenus img{
+  	height: 300px;
+  }
+}
+
+@media (max-width: 450px){
+	#contenus{
+  	display:block;
+
+  }
+	#contenus div{
+  	height: 200px;
+  	width:100%;
+  }
+  #contenus img{
+  	height: 200px;
+  	margin:auto;
+  }
+  #contenus p{
+  	width:100%;
+  	margin-top: 10px;
+  }
+}
